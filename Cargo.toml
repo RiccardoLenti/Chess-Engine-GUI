@@ -1,0 +1,14 @@
+[package]
+name = "Chess_Rust_Bitmap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+macroquad = "0.4.13"
+
+[profile.release]
+panic = 'abort'
+opt-level = 3
+codegen-units = 1
+lto = true
+#debug = true

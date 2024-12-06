@@ -1,0 +1,4 @@
+/target
+/Stockfish
+.rustfmt.toml
+*.svg
